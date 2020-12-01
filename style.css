@@ -1,0 +1,569 @@
+body {
+  background-color:white;
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+h1 {
+  
+  text-align: center;
+  color: #484848;
+  font-weight: 200;
+
+}
+
+hr
+{
+  height: 5px;
+  color: orange;
+  background-color: orange;
+  border: none;
+}
+
+
+}
+p {
+  color: red;
+  margin-left: right;
+  margin-right: right;
+  width: 8em
+}
+
+h2{
+  font-size: 1.5rem; 
+  color: #484848;
+  font-weight: 100;
+  
+}
+
+
+
+/* TITLE SECTION */
+main #siteTitle{
+  text-align: left;
+  image-align: center;
+  color:black; 
+}
+
+
+.gridcontainerA {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 2fr));
+  align-items: center;
+  grid-column-gap: 150px; 
+  margin-left: 10vw; 
+  margin-right: 10vw; 
+  margin-top: 2vw; 
+}
+@media screen and (max-width: 750px){
+  .gridcontainerA{
+    padding-top: 5vw; 
+  }
+}
+@media screen and (max-width: 500px){
+  .gridcontainerA{
+    padding-top: 15vw; 
+  }
+}
+
+/* OUR APPROACH SECTION */
+
+#ourApproach{
+  background-color: orange;
+  height: 80px;
+  text-align: center;
+
+}
+
+.health{
+  color:#484848; 
+  font-size: 17px
+
+}
+
+.food{
+  color: #484848; 
+  font-size: 17px
+
+}
+
+.shelter{
+  color: #484848; 
+  font-size: 17px
+
+}
+
+
+
+
+#ourApproach h2{
+  margin-left: 10vw; 
+  padding-top: 25px; 
+  padding-bottom: 5px; 
+}
+
+#ourApproach p{
+  color: 484848; 
+  text-align: center; 
+  
+}
+
+.our-approach-grid {
+  display: grid;
+  align-items: center; 
+  text-align: center; 
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 2fr));
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 10vh; 
+  padding: 5vw 10vw 5vw 10vw; 
+}
+.our-approach-grid p{
+  padding-top: 1vw; 
+}
+
+.our-approach-grid img{
+  width: 90%; 
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 100%;
+
+}
+
+@media screen and (max-width: 70px){
+  .our-approach-grid {
+    display: block; 
+    margin-top: 2px; 
+  }
+  .our-approach-grid p{
+    padding-top: 1vw; 
+    padding-bottom: 10vw
+      
+  }
+}
+.item1 {
+  grid-column-end: span 2;
+}
+
+
+/* background 3section divider */
+#Background3{
+  background-size: cover; 
+  height: 10%; 
+}
+
+
+/* footer testing */
+
+#oceanFooter{
+  background-image: url("img/flowers.png");
+  background-size: cover; 
+  background-color: #444445;
+}
+
+.h3footer{
+  color:white; 
+}
+
+#oceanFooter h3, p{
+  font-size: 0.9em; 
+}
+
+#oceanFooter p,a{
+  color: #444445;
+  text-align: left; 
+
+}
+.footer-container {
+  margin: 38%; 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 2fr;
+  gap: 100px 100px;
+  padding-top: 0px; 
+  padding-bottom: 1px; 
+  grid-template-areas:
+    "aboutus news-and-media connect newsletter newsletter";
+}
+.newsletter { grid-area: newsletter; }
+
+.newslettersign{
+  margin: 50;
+  height:20%;
+  width: 100%
+}
+
+.connect { grid-area: connect; }
+
+.aboutus { grid-area: termsofuse; }
+
+.news-and-media { grid-area: news-and-media; }
+
+.grid-container-socials {
+  padding-top:10px;
+}
+
+.socials { 
+  grid-area: socials; 
+}
+
+}
+.responsive {
+  width: 100%;
+
+}
+
+}
+.paw-dog {
+  width: 2000px;
+  
+}
+
+/* Foster Page */
+.FosterCarer_P {
+
+  font-size: 20px;
+
+}
+
+/* Foster Page - Image 1 animation */
+.demo-2 {
+    position:relative;
+    width:450px;
+    height:400px;
+    overflow:hidden;
+    float:left;
+    margin-right:20px;
+    background-color:rgba(41, 112, 109, 0.74)
+}
+.demo-2 p,.demo-2 h2 {
+    color:#fff;
+    padding:10px;
+    left:-20px;
+    top:20px;
+    position:relative
+}
+.demo-2 p {
+    font-family:'Arial';
+    font-size:12px;
+    line-height:18px;
+    margin:0
+}
+.demo-2 h2 {
+    font-size:20px;
+    line-height:24px;
+    margin:0;
+    font-family:'Arial';
+}
+.effect img {
+    position:absolute;
+    left:0;
+    bottom:0;
+    cursor:pointer;
+    margin:-38px 0;
+    -webkit-transition:bottom .15s ease-in-out;
+    -moz-transition:bottom .15s ease-in-out;
+    -o-transition:bottom .15s ease-in-out;
+    transition:bottom .15s ease-in-out
+}
+.effect img.top:hover {
+    bottom:-96px;
+    padding-top:100px
+}
+h2.zero,p.zero {
+    margin:0;
+    padding:0
+}
+
+
+
+/* Foster Page - text wrapper */
+
+.container-image img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 50%;
+    flex-wrap: wrap;
+}
+
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  max-width:30%;
+  height:auto;
+  width: 10%;
+  padding: 3px;
+  object-fit: contain; 
+  margin-right: auto;
+}
+
+/* Peoples icon and rules icon-image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+
+
+/* foster page button */
+
+
+
+button2 {
+  background-color: orange; 
+  border: 2px, #073B4C;
+  color:#2c9685;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  font-size: 24px;
+  margin-top:10;
+  position: absolute;
+  left: 100px;
+  top: 750px;
+  width:10%;
+  cursor: pointer;
+  transition: background-color 0.3s ease-out;
+}
+
+button2:hover {
+  background-color:#2c9685;
+  color: white;
+}
+
+/* foster page gifs layout */
+
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+/* foster carer footer  */
+footer ul  {
+  padding-left: 0;
+  margin-right: 200px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  background-color: orange;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0;
+  }
+
+.footer-li, .nolink, .footermenu {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  list-style-type: none;
+  margin-bottom: 15px;
+  color: black;
+  font-weight: 400;
+  position: relative;
+  left: 100px;
+}
+
+.footer-li:hover {
+  color: #3F6F88;
+}
+
+.footer-li:active {
+  color: rgb(136, 176, 197);
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  padding: 0;
+  margin: 0;
+}
+
+.socialmediaicons {
+  padding-left: 60px;
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+
+/*SEARCH BAR IN DONATE PAGE */
+
+input[type=text] {
+  width: 100px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  height: 40px;
+  border: 2px solid rgb(255, 181, 44);
+  border-radius: 5px 0 0 5px;
+  font-family: Arial;
+  font-size: 18px;
+  position:absolute;
+  right:2%; 
+
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+  width: 20%;
+}
+
+/*DONATION PAGE THREE DOTS*/
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot1 {
+  height: 25px;
+  width: 25px;
+  background-color:#51918b;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+/* DONATION page 3 top buttons*/
+
+.btn-group button {
+  font-size: 17px;
+  background-color: #f7f7f7; /* Green background */
+  border: 2px solid grey; /* Green border */
+  display: inline-block;
+  color: black; /* White text */
+  padding: 20px 30px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: none; /* Float the buttons side by side */
+  box-shadow: 0 0 0 rgba(0,0,0,0.1), inset 0 0 0 rgba(0,0,0,0.1);
+
+  text-align: center;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color:#51918b;
+
+}
+
+
+/* DONATION PAGE BUTTON NEXT */
+
+.next {
+  background-color:white;
+  color: orange;
+  font-size: 30px;
+
+}
+
+/*DONATION PAGE DOG IMAGE WITH TEXT OVER */
+
+
+.container_avatar {
+  position: relative;
+  width: 50%;
+}
+
+.imagedog {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:#51918b;
+}
+
+.container_avatar:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+

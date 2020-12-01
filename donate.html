@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+<link href="style.css" rel="stylesheet" type="text/css" />
+<style>
+
+}
+
+body {margin:0;font-family:Arial}
+
+.topnav {
+  overflow: hidden;
+  background-color: #484848;
+}
+
+.topnav a {
+  float: right;
+  display: block;
+  color: #ffaf5e;
+  text-align: center;
+  padding: 23px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  transition-duration: 0.4s;
+
+}
+.active {
+
+  background-color: #5ba6a6;
+  color: orange;
+
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+  transition-duration: 0.4s;
+
+}
+
+.dropdown .dropbtn {
+  font-size: 20px;    
+  border: none;
+  outline: none;
+  color: #ffaf5e;
+  padding: 23px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  transition-duration: 0.4s;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #ffaf5e;
+  color: black;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: #484848;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+@media screen and (max-width: 850px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+
+
+  }
+}
+</style>
+</head>
+
+<body>
+   
+  <a href="index.html#index">
+  <img src="img/logo.png" alt="Nature" class="responsive" width="250" height="65">
+  </a>
+
+<div class="topnav" id="myTopnav">
+  <a href="donate.html#Donate" class="active">Donate</a>
+  <a href="#Contact Us">Contact Us</a>
+  <a href="#News">News</a>  
+
+
+  <div class="dropdown">
+    <button class="dropbtn">Take Action
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Volunteer</a>
+      <a href="donate.html#">Donate</a>
+      <a href="foster_carer.html#">Foster Carer</a>
+    </div>
+  </div> 
+
+  <div class="dropdown">
+    <button class="dropbtn">Our Work
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">The Team</a>
+      <a href="#">Location</a>
+      <a href="#">Impact</a>
+    </div>
+  </div> 
+
+
+  <div class="dropdown">
+    <button class="dropbtn">About Us
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Our Mission</a>
+      <a href="#">Our Impact</a>
+      <a href="#">Our Stories</a>
+    </div>
+
+
+  </div> 
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+</div>
+  <section id="FosterCarer">
+   <div class="FosterCarer_P">
+
+  <h1>Make A Donation</h1>
+  <center><p><strong>
+  <hr>
+
+  <input type="text" name="search" placeholder="🔍 Search..">
+  <h1 style="font-size:4vw;">Act Now!</h1>
+  <h1 style="font-size:3vw;">Donation Form</h1>
+
+  <span class="dot1"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <br>
+
+
+<!-- Three buttons in a group -->
+<div class="btn-group" style="width:100%">
+  <button style="width:20.3%">One Time</button>
+  <button style="width:20.3%">Monthly</button>
+  <button style="width:20.3%">Annually</button>
+</div>
+
+
+<div>
+<form method="post" action="/Tests/Post">
+    <fieldset>
+        <legend>CHOOSE AMOUNT</legend>
+        <input type="radio" class="choose_amount" value="20">A$20 
+        <p style="color:#51918b;">will buy an enrichment toy for a pet in foster care</p><br>
+      
+
+        <input type="radio" class="choose_amount" value="35">A$35 
+        <p style="color:#51918b;">will buy the food to feed a pet for a whole month</p><br>
+
+
+        <input type="radio" class="choose_amount" value="60">A$60
+        <p style="color:#51918b;">will provide 2 nights of safe sleep to a pet in need</p><br>
+        
+
+        <input type="radio" class="choose_amount" value="100">A$100
+        <p style="color:#51918b;">will vaccine against disease like parasite protection</p><br>
+            
+
+        <input type="radio" class="choose_amount" value="200">A$200 
+        <p style="color:#51918b;">will buy a week of emergency boarding to a pet in need</p><br>
+      
+
+        <input type="radio" class="choose_amount" value="350">A$350
+        <p style="color:#51918b;">will help a pet suffering receive emergency medical care</p><br>
+        
+
+
+        <input type="radio" class="choose_amount" value="custom">Custom Amount_____________________________________<br>
+        <br>
+        <a href="#" class="next">Next &raquo;</a>
+
+        
+    </fieldset>
+         
+</form>
+</div>
+
+<h2>Support Owner Security and Companionship</h2>
+<p>Your donations are essential in preventing Pet Abandonment</p>
+
+<div class="container_avatar">
+  <img src="img/cute-dog.png" alt="Avatar" class="imagedog">
+  <div class="overlay">
+    <div class="text">Make Your Impact</div>
+  </div>
+</div>
+
+
+<!-- foster carer footer-->
+
+
+<footer>
+    <div class="termsofusefooter">
+      <ul>
+        <li><p class="footermenu"><b>Terms of use</b></p></li>
+        <a href="https://petsofthehomeless.org.au/privacy-policy/"><li class="footer-li">Privacy Policy</li></a>
+        <a href="https://petsofthehomeless.org.au/copyright/"><li class="footer-li">Copyright</li></a>
+      </ul>
+    </div>
+    <div class="takeactionfooter">
+      <ul>
+        <li><p class="footermenu"><b>Take Action</b></p></li>
+        <a href="nolink"><li class="footer-li">Volunteer</li></a>
+        <a href="donate.html"><li class="footer-li">Donate</li></a>
+        <a href="foster_carer.html"><li class="footer-li">Foster Carer</li></a>
+      </ul>
+    </div>
+    <div class="contactusfooter">
+      <ul>
+        <li><p class="footermenu"><b>Contact Us</b></p></li>
+        <li class="nolink"><b>Email:</b> hello@petsofthehomeless.org.au</li>
+        <li class="nolink"><b>Address:</b> 84A Keys Rd, Cheltenham VIC 3192</li>
+      
+        <li class="nolink"><b>Mail:</b> PO Box 379, Patterson Lakes VIC 3197<br></li>
+      </ul>
+    </div>
+    <div class="socialmediafooter">
+      <ul>
+        <li><p class="nolink"><b>Follow our Social Media</b></p></li>
+      </ul>
+      <figure class="socialmediaicons">
+        <a href="https://twitter.com/pothaustralia?lang=en"><img src="img/twitter.png" class="icon" alt="twitter icon"></a>
+        <a href="https://www.facebook.com/pothaustralia"><img src="img/facebook.png" class="icon" alt="twitter icon"></a>
+        <a href="https://www.instagram.com/pothaustralia/"><img src="img/instagram.png" class="icon" alt="instagram icon"></a>
+        <a href="https://au.linkedin.com/company/pets-of-the-homeless-australia"><img src="img/linkedin.png" class="icon" alt="linkedin icon"></a>
+      </figure>
+    </div>
+  </footer>
+
+<!-- foster care footer-->
+    <!-- footer -->
+    
